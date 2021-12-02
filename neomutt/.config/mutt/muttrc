@@ -1,0 +1,14 @@
+set imap_user = "amankushwaha3rdid@gmail.com"
+set imap_pass = "`gpg --batch -q --decrypt ~/.config/mutt/amankushwaha3rdid.gpg`"
+set folder = "imaps://imap.gmail.com"
+set smtp_url = "smtps://amankushwaha3rdid@gmail.com@smtp.gmail.com:465"
+set from = "amankushwaha3rdid@gmail.com"
+set realname = "Aman Kushwaha"
+set spoolfile = "+INBOX"
+
+unset record
+unset trash
+set postponed = "+[Gmail].Drafts"
+
+set mail_check = 60
+
