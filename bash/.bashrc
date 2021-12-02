@@ -15,7 +15,6 @@ export GNUPGHOME="$HOME/.config/gnupg"
 
 RANGER_LOAD_DEFAULT_RC=FALSE
 
-export ZDOTDIR="$HOME/.config/zsh"
 export VIMINIT="source ~/.config/vim/vimrc"
 
 alias vidwm='sudo vim ~/.dwm/dwm/config.h'
